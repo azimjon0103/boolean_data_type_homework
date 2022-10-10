@@ -1,3 +1,4 @@
+import math
 def main(a):
     """check that the number "a" is a perfect square.
     Args:
@@ -6,5 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return bool(a**a)
-print(main(2))    
+    b=math.sqrt(a)//1
+    return b*b==a
+print(main(16))    
