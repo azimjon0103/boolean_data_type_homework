@@ -7,4 +7,4 @@ def main(a):
     """
     # Write your code here
     return bool(0<a)
-print(main(5))    
+print(main(1))    
