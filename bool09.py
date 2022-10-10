@@ -6,5 +6,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 0<a
+    return bool(0<a%2)
 print(main(1))    
